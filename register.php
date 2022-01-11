@@ -24,7 +24,7 @@
     $addr=$addd.$addr3;
     $his=$_POST['his'];
     $dp=$_POST['image'];
-    echo 'shit'; \"SELECT `is_doing` FROM `users` WHERE `users`.`user_name` = '{$user}'\"
+    echo 'shit'; 
     $query ="insert into patient(Aadhar_number,patient_name,address,dp,mobile,dob,medical_history) values('$Aadhar_no','$name','$addr','$dp','$phone','$dob','$his')";
     
     $run=mysqli_query($conn,$query);
