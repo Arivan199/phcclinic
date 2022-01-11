@@ -30,7 +30,7 @@
     $run=mysqli_query($conn,$query);
     echo 'shit';
     if($run){
-        echo 'Succesfully inserted';
+        header("Location: heroku.phcclinic.com");
     }
     else{
         echo 'Insertion failed';
